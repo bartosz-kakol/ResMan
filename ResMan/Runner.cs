@@ -62,7 +62,7 @@ namespace ResMan
         {
             if (diff == null)
             {
-                throw new InvalidOperationException("Original monitor info is not available yet. Call Run() first.");
+                throw new InvalidOperationException("Target monitor info is not available yet. Call Run() first.");
             }
 
             if (diff.ResolutionChanged || diff.RefreshRateChanged)
